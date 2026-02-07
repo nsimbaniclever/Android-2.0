@@ -147,3 +147,8 @@ abbr{
     text-align: center;
     font-weight: bolder;
 }
+
+.imagensFormatadas
+{
+    width: 100%;
+}
