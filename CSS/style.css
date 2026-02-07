@@ -1,0 +1,149 @@
+*{
+    margin: 0 px;
+    padding: 0px;
+}
+@font-face
+{
+    font-family: Android;
+    src: url("fontes/idroid.otf") format(opentype);
+}
+body
+{
+    background-color: #fefe86b5;
+}
+header
+{
+    background-image: linear-gradient(to bottom, #16c160,#119b4d , #0d743a, #09582b);
+    margin: -10px -10px 0px -10px;
+    padding: 20px;
+    box-shadow: 3px 1px 2px 1px rgba(56, 56, 56, 0.685);
+}
+
+header > h1
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+header > p
+{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.648);
+}
+header > nav
+{
+    margin: 0px 0px -15px;
+}
+header > nav > a
+{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.779);
+}
+header > nav > a:hover
+{
+    background-color: #0c7138;
+    color: rgba(187, 188, 189, 0.775);
+    padding: 10px;
+    border-radius: 5px;
+}
+main
+{
+    background-color: rgba(254, 254, 254, 0.979);
+    margin: 3px auto;
+    padding: 1px 15px;
+    width: 80%;
+}
+
+main > section > h2
+{
+    font-family: 'Android', Courier, monospace;
+    color: #09582bac;
+}
+.subtitulos
+{
+    font-family: "Android", Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #0e793cc3, #0e793c62, #1acc6715);
+}
+.paragraphs
+{
+    text-indent: 30px;
+    text-align: justify;
+}
+.link1
+{
+    color: black;
+    text-decoration: none;
+    background-color: #09582b;
+    color: whitesmoke;
+}
+.link1:hover
+{
+    background-color: #585809;
+    color: rgb(189, 187, 187);
+}
+a.link1::after {
+    content: "🔗";
+    font-size: 0.7em;
+    font-weight: bolder;
+}
+
+main > aside
+{
+    background-color: #6cf9a9fe;
+    width: 90%;
+    padding: 10px 20px;
+    margin:15px auto;
+    border-radius: 15px;
+}
+main > aside > h4
+{
+    background-color: #12b157;
+    color: rgba(255, 255, 255, 0.903);
+    margin: -20px;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+main > aside > p 
+{
+    margin: 25px -2px 0px -5px;
+}
+.lista-colunas 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 colunas iguais */
+    gap: 15px 40px; /* 15px vertical, 40px horizontal */
+}
+
+.item
+{
+    display: flex;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+.item::before
+{
+    content: "\2705";
+    color: black;
+}
+abbr{
+    text-decoration: none;
+    font-weight: 600;
+}
+#first
+{
+    background-color: white;
+    width: 80%;
+    margin: -4px auto;
+    padding: 15px;
+    border-radius: 0px 0px 15px 15px;
+}
+#second
+{
+    text-align: center;
+    background-color: #09582b;
+    margin: 15px -15px -15px -15px;
+    padding: 20px;
+    color: rgb(198, 197, 197);
+    font-weight: 700;
+    text-align: center;
+    font-weight: bolder;
+}
