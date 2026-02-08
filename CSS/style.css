@@ -5,7 +5,7 @@
 @font-face
 {
     font-family: Android;
-    src: url("fontes/idroid.otf") format(opentype);
+    src: url("idroid.otf") format(opentype);
 }
 body
 {
@@ -58,7 +58,7 @@ main > section > h2
     font-family: 'Android', Courier, monospace;
     color: #09582bac;
 }
-.subtitulos
+.subtitles
 {
     font-family: "Android", Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, #0e793cc3, #0e793c62, #1acc6715);
